@@ -19,7 +19,7 @@ const productos = [
       marca: "JBL",
       desc: "Altavoz portátil, resistente al agua IP67, 7h de batería, sonido potente.",
       precio: 220000,
-      img: "img/productos/jbl-go4.jpg",
+      img: "img/productos/jbl-go4.webp",
       badge: "Nuevo"
     },
     {
