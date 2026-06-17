@@ -66,7 +66,7 @@ function renderCard(p, delay) {
   return `
     <div class="card" style="animation-delay:${delay}ms">
         <div class="card-img">
-            ${p.badge ? `<span class="card-badge">${p.badge}</span>` : ""}
+            ${p.badge ? `<span class="${p.badge === "En camino" ? "card-badge-camino" : "card-badge"}">${p.badge}</span>` : ""}
             <img src="${p.img}" alt="${p.nombre}">
         </div>
       <div class="card-body">
