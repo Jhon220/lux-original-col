@@ -80,7 +80,7 @@ function renderCard(p, delay) {
           ${formatPrecio(p.precio)}
         </div>
         <a class="btn-wa" href="${waLink(p)}" target="_blank">
-          ${p.badge} === "En camino" ? "Consultar" : "Comprar"}
+          ${p.badge === "En camino" ? "Consultar" : "Comprar"}
         </a>
       </div>
     </div>
