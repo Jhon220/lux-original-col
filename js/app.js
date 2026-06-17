@@ -11,7 +11,7 @@ const productos = [
       desc: "La combinación de notas especiadas y amaderadas con el toque fresco e inesperado de la bergamota la convierten en una fragancia distintiva y sofisticada. 50ml.",
       precio: 250000,
       img: "img/productos/perfume-valentino-uomo.webp",
-      badge: "Nuevo"
+      badge: "En camino"
     },
     {
       id: 2, cat: "bocinas",
@@ -80,7 +80,7 @@ function renderCard(p, delay) {
           ${formatPrecio(p.precio)}
         </div>
         <a class="btn-wa" href="${waLink(p)}" target="_blank">
-          Pedir
+          ${p.badge} === "En camino" ? "Consultar" : "Comprar"}
         </a>
       </div>
     </div>
